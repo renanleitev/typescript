@@ -7,7 +7,8 @@ const objetoA: {
   chaveA: 'Valor A',
   chaveB: 'Valor B',
 };
-
+// Mesmo acusando o erro, foi possível reatribuir (???)
+// objetoA.chaveA = 'teste';
 objetoA.chaveB = 'Outro valor';
 objetoA.chaveC = 'Novo valor';
 objetoA.chaveD = 'Nova chave';

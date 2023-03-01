@@ -1,4 +1,5 @@
 // Utilize any apenas em último caso
+// any = Aceita qualquer tipo
 function showMessage(msg: any) {
   return msg;
 }
