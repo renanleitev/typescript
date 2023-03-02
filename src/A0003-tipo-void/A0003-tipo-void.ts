@@ -3,11 +3,15 @@ function semRetorno(...args: string[]): void {
   console.log(args.join(' '));
 }
 
-const pessoa = {
+const pessoa: {
+  nome: string;
+  sobrenome: string;
+  exibirNome(): void;
+} = {
   nome: 'Luiz',
   sobrenome: 'Otávio',
 
-  exibirNome(): void {
+  exibirNome() {
     console.log(this.nome + ' ' + this.sobrenome);
   },
 };
