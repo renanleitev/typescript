@@ -12,9 +12,14 @@ enum Cores {
   AZUL = 100, // 100
   AMARELO = 200, // 200
 }
+
+const nome: string = 'joao';
+
+const
+
 // É possível declarar um dado sem um valor
 enum Cores {
-  ROXO = 'ROXO',
+  ROXO = 'PURPLE',
   VERDE = 201,
   ROSA,
 }

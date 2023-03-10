@@ -2,6 +2,7 @@ const objetoA: {
   readonly chaveA: string;
   chaveB: string;
   chaveC?: string;
+  // ! Não é boa prática
   [key: string]: unknown;
 } = {
   chaveA: 'Valor A',
